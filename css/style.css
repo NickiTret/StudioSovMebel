@@ -320,7 +320,7 @@ input .button-form {
         font-family: 'Roboto';
         background-color: #212123;
         color: white;
-        min-width: 480px;
+        min-width: 100%;
     }
     img {
         max-width: 100%;
@@ -341,7 +341,7 @@ input .button-form {
     .container {
         margin: 0 auto;
         padding: 15px;
-        min-width: 450px;
+        min-width: 100%;
     }
     .swiper-container {
         height: 400px;
@@ -373,7 +373,8 @@ input .button-form {
         position: relative;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
+        width: 100%;
     }
     .header-container::before {
         content: '';
@@ -409,7 +410,7 @@ input .button-form {
         position: relative;
         display: flex;
         justify-content: flex-end;
-        width: 350px;
+        width: 100%;
     }
     .header-contacts-list {
         display: flex;
@@ -418,6 +419,7 @@ input .button-form {
     }
     .header-contacts-item {
         margin-top: 15px;
+        margin-right: 0;
     }
     .mobile-image {
         display: block;
@@ -431,7 +433,7 @@ input .button-form {
         background: url(/img/watsup.png) no-repeat;
         background-position: center right;
         background-size: 40px 40px;
-        padding-right: 50px;
+        padding-right: 43px;
         padding-top: 10px;
     }
     .contacts-link {
@@ -443,7 +445,7 @@ input .button-form {
         background: url(/img/insta.png) no-repeat;
         background-position: center right;
         background-size: 40px 40px;
-        padding-right: 50px;
+        padding-right: 43px;
         padding-top: 10px;
     }
     .about_us-container {
@@ -578,7 +580,7 @@ input .button-form {
         font-family: 'Roboto';
         background-color: #212123;
         color: white;
-        min-width: 320px;
+        max-width: 100%;
     }
     img {
         max-width: 100%;
